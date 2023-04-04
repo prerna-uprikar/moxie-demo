@@ -1,0 +1,1611 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    font-family: 'segoe ui';
+  }
+
+/* navigation bar section */
+.navbar-wrapper {
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 0%);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    padding-top: 5px;
+    position: fixed;
+    z-index: 1111;
+    width: 100%;
+    top: -6px;
+}
+  .nav {
+    
+    width: 100%;
+    background-color: #ffff;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .nav > .nav-header {
+    display: inline;
+  }
+  .nav > .nav-header > .nav-logo {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: #0b3135;
+    padding: 10px 10px 10px 10px;
+  }
+  .nav > .nav-btn {
+    display: none;
+  }
+  .nav > .nav-links {
+   display: flex;
+   margin-left: auto;
+    font-size: 18px;
+  }
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 10px 10px 13px 10px;
+    text-decoration: none;
+    color: rgb(11, 49, 53);
+    font-size: .75rem;
+    letter-spacing: 2px;
+    line-height: 12px;
+  }
+  a.free-trial-btn {
+    background-color: #7772e1;
+    border-radius: 4px;
+    color: white !important;
+    margin: 0px 20px;
+    height: 36px;
+    width: 175px;
+    line-height: 14px;
+    text-align: center;
+    font-weight: 600;
+}
+  .nav > #nav-check {
+    display: none;
+  }
+  a.browse {
+    text-decoration: none;
+    color: #0b3135;
+    font-size: .75rem;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+a.browse:hover {
+    color: #e0565b !important;
+    text-decoration: none;
+}
+.nav-login:hover{
+    color: #e0565b !important;
+    text-decoration: none;
+}
+.nav-signup:hover{
+    color: #e0565b !important;
+    text-decoration: none;
+}
+img.logo-image {
+    width: 100px;
+}
+.mobile-view-nav-content{
+    display: none !important;
+}
+
+
+  /* navigation bar section ends */
+
+
+
+
+  /* main section */
+.main-heading-section {
+    background: #003c43;
+    padding: 60px 20px;
+    text-align: center;
+    height: 375px;
+}
+h1.fitness-heading {
+    padding-top: 30px;
+    color: white;
+    font-size: 64px;
+    font-weight: 400;
+}
+p.heading-para {
+    color: #a5effa;
+    font-size: 24px;
+    font-weight: 400;
+}
+img.img-fluid.main-image {
+    border-radius: 15px;
+    position: relative;
+    bottom: 80px;
+    width: 100%;
+}
+
+  /* main section ends */
+
+
+  /* live classes */
+.live-classes-wrap {
+    padding: 0px 7%;
+    margin-top: -20px;
+    background-color: #e5e5e5;
+}
+img.live-image {
+    width: 100%;
+    border-radius: 5px;
+}
+.live-class.row {
+    padding-bottom: 30px;
+}
+h3.live-class-heading {
+    padding: 20px 0px;
+    letter-spacing: 1.5px;
+    color: #003C43;
+}
+h3.live-card-heading {
+    font-size: 17px;
+    padding: 10px 0px 5px;
+    letter-spacing: 1px;
+    color: #003C43;
+    margin: 0px;
+}
+p.live-card-text {
+    margin: 4px 0px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+p.live-timing {
+    color: rgba(91, 109, 114, 0.7);
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+span.trainee-name {
+    color: #e0565b;
+}
+/* live class ends */
+
+/* discover-top */
+.discover-top-wrap {
+    padding: 0px 7%;
+    background-color: #e5e5e5;
+}
+h3.discoverlive-card-heading {
+    font-size: 17px;
+    padding: 10px 0px 30px;
+    letter-spacing: 1px;
+    color: #003C43;
+    margin: 0px;
+}
+/* discover-top ends */
+
+
+/* perfect live */
+.perfect-live-wrap{
+    padding: 0px 7% 20px;
+    background-color: #e5e5e5;
+}
+.col-md-2.perfect {
+    margin-right: 35px;
+}
+
+/* perfect live ends */
+
+/* video section */
+.video-section-wrap{
+    padding: 30px 7%;
+}
+h2.video-heading-1 {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    padding: 10px 0px;
+    color: #003C43;
+    font-weight: 400;
+}
+h2.video-heading-2 {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    color: #003C43;
+    font-weight: 400;
+}
+.video-section {
+    padding: 30px 0px;
+}
+.video-play.row {
+    padding: 45px 0px;
+}
+.col-md-6.video {
+    padding: 20px 10px;
+}
+img.video-img {
+    width: 100%;
+}
+
+/*  */
+
+
+/* discover advantage wrap */
+.discover-advantage-wrap{
+    padding: 30px 7%;
+    background-color: #e5e5e5;
+}
+h2.advantage-heading {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    color: #003C43;
+}
+.advantage-section.row {
+    padding: 40px 0px;
+}
+p.quote {
+    padding: 0px 30px;
+    text-align: justify;
+    color: #003C43;
+    font-weight: 500;
+    min-height: 145px;
+}
+p.quote-by {
+    text-align: center;
+    padding-top: 40px;
+    color: #003C43;
+    font-weight: 500;
+}
+
+/*  */
+
+
+/* coach section */
+.coach-wrap{
+    padding: 30px 7%;
+    background-color: #e0f1f2;
+
+}
+p.coach-heading-text {
+    text-align: center;
+    padding: 5px;
+    color: #003C43; 
+    font-size: 20px;
+}
+h2.coach-heading {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: #003C43
+}
+.coach-video {
+    text-align: center;
+}
+.learn-button {
+    text-align: center;
+    padding: 50px;
+}
+.learn-more {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: transparent;
+}
+.learn-more:hover {
+    background-color: #0b3135;
+    color: white;
+    border: none;
+}
+img.coach-img {
+    width: 70%;
+}
+img.ass-seen-img {
+    width: 100%;
+}
+
+/*  */
+
+/* asss seen section */
+.ass-seen-in-section{
+    padding: 30px 7%;
+}
+.as-seen-heading{
+    text-align: center;
+    padding: 5px;
+    color: #003C43; 
+    font-size: 40px;
+}
+.ass-seen-wrapper.row {
+    align-items: center;
+}
+
+
+/* footer section */
+
+.footer-wrapper-section {
+    background: #f7f7f7;
+    padding: 5%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+}
+li.footer-list-heading {
+    color: #003c43;
+    font-size: 18px;
+    font-weight: 400;
+}
+p.fitness {
+    font-size: 12px;
+    padding: 0px 5px;
+}
+li.footer-list {
+    color: #003c43;
+    font-weight: lighter;
+    font-size: 13px;
+    padding: 5px 0px;
+}
+.footer-sec {
+    margin: 0 auto;
+}
+
+/*  */
+
+
+
+
+/* about us page starts */
+a.start-coaching-btn {
+    border-color: #5b6d72;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 0px 0px;
+    height: 35px;
+    width: auto;
+    text-align: center;
+    font-weight: 600;
+    align-self: center;
+}
+.about-section-wrapper {
+    background: #f7f7f7;
+    padding: 80px 0px;
+}
+.story-heading-section {
+    padding: 25px 25px;
+}
+.about-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+h3.our-story {
+    color: #4f9ca7;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 53px;
+}
+.abt-head-text{
+    font-size: 22px;
+    font-weight: 400;
+    color: #003c43;
+}
+img.story-img {
+    width: 320px;
+    height: 330px;
+}
+.abt-main-section {
+    display: flex;
+    align-items: center;
+    padding: 30px 0px;
+}
+.abt-image-section {
+    width: 50%;
+    text-align: center;
+}
+.abt-section-text {
+    width: 50%;
+    text-align: justify;
+    color: #5b6d72;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+}
+a.login-btn {
+    background-color: #ef515a;
+    border-radius: 4px;
+    color: white !important;
+    margin: 0px 20px;
+    height: 36px;
+    width: 90px;
+    text-align: center;
+    font-weight: 600;
+}
+.footer-link{
+    color: #003c43;
+}
+.footer-link:hover{
+   color: #ef515a;;
+   text-decoration: none;
+}
+
+/*  */
+
+
+
+
+/* login section */
+
+.login-wrapper {
+    padding: 10% 0px;
+    background: #ffffff;
+}
+.login-section {
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 15%);    
+    max-width: 45%;
+    margin: 0 auto;
+    padding: 20px 0px;
+
+}
+.login-logo {
+    text-align: center;
+    padding: 30px 0px 20px 0px;
+}
+img.login-logo-img {
+    width: 210px;
+}
+.login-text {
+    text-align: center;
+}
+p.work-txt {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 24px;
+    color: #003c43;
+}
+p.train-live-txt {
+    font-size: 13px;
+    padding-bottom: 10px;
+    color: #2f6066;
+}
+input.form-inpt {
+    padding: 10px;
+    width: 50%;
+    border-radius: 4px;
+    border: 1px solid rgba(11,49,53,.5);
+    font-size: .875rem;
+}
+input.form-inpt::placeholder {
+    color: #bbc5c6;
+}
+input.form-inpt:focus {
+    outline: 0;
+}
+.login-input-section {
+    text-align: center;
+}
+.form-input {
+    padding: 10px 0px;
+}
+input.form-inpt.password {
+    background-image: url('images/inpt-image.PNG');
+    background-repeat: no-repeat;
+    background-position: 98% center;
+}
+button.login-button {
+    background-color: #ef515a;
+    border-radius: 4px;
+    color: white !important;
+    margin: 0px 20px;
+    height: 40px;
+    width: 50%;
+    text-align: center;
+    font-weight: 600;
+    border: none;
+}
+.form-login-btn {
+    padding: 5px 0px;
+}
+p.fgt-txt {
+    letter-spacing: 2px;
+    color: #E0565B;
+    font-weight: 600;
+    font-size: 12px;
+}
+.forgot-text {
+    padding-top: 15px;
+}
+a.sign-up-txt {
+    text-decoration: none;
+    color: #ef515a;
+}
+p.have-acc-txt {
+    color: #003c43;
+}
+.dont-have {
+    padding: 10px;
+}
+.border{
+    background: #f2f2f2;
+    float: left;
+    height: 8px;
+    margin: 0 1% 0 0;
+    width: 19%;
+}
+.border-section {
+    width: 50%;
+    margin: 15px auto;
+    padding: 10px;
+}
+.already-have {
+    padding: 30px 0px 0px;
+    text-align: center;
+}
+.check-section {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px 8px;
+    text-align: justify;
+    font-size: 13px;
+}
+input.inpt-check {
+    height: 18px;
+    width: 34px;
+    margin: 2px 20px 0px 0px;
+}
+.terms{
+    color: #ef515a;
+}
+.terms:hover{
+    color: #ef515a;
+    text-decoration: underline;
+    text-decoration-color: #ef515a !important; 
+}
+/* login-section ends */
+
+
+
+
+/* gift page */
+img.gft-image {
+    width: 75%;
+    height: 400px;
+}
+.gift-section-wrapper {
+    padding: 10% 30px;
+}
+h3.give-gift {
+    font-size: 32px;
+    color: #0b3135;
+    font-weight: normal;
+}
+.give-gift-txt {
+    color: #3c5a5d;
+    font-size: 16px;
+    padding: 10px 0px;
+}
+label.gift-label {
+    display: block;
+}
+.gift-section {
+    display: flex;
+    padding: 0px 30px;
+}
+.give-gift {
+    width: 50%;
+}
+.gift-form {
+    width: 45%;
+    margin: 0 30px auto;
+}
+input.gift-input {
+    width: 90%;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid;
+}
+input.gift-input:focus {
+  outline: 0;
+}
+input.gift-input::placeholder{
+    color: rgb(187, 184, 184);
+  }
+.gift-form-grp {
+    padding: 10px 15px;
+}
+.purchase-btn{
+    padding: 10px 15px;
+}
+button.purchase-button {
+    width: 90%;
+    background-color: #ef515a;
+    border-radius: 4px;
+    color: white !important;
+    width: 90%;
+    text-align: center;
+    font-weight: 600;
+    border: none;
+    padding: 10px;
+}
+.reddem{
+    text-align: center;
+    padding: 20px;
+}
+textarea {
+    width: 90%;
+    padding: 10px;
+}
+
+input.gift-input {
+padding: 7px 10px;
+}
+.gidt-card-txt {
+    text-align: center;
+}
+span.rebbion-sec {
+    background: hsla(0,0%,100%,.9);
+    color: #f01462;
+    font-size: 12px;
+    font-weight: 700;
+    height: 24px;
+    line-height: 24px;
+    min-width: 80px;
+    top: 7px;
+    border-radius: 0 10px 0 10px;
+    left: 70.5%;
+    padding: 0 10px;
+    position: absolute;
+}
+.rebbion-sec::after{
+    content: "";
+    height: 5px;
+    position: absolute;
+    border-color: rgba(0,0,0,.4) transparent transparent rgba(0,0,0,.4);
+    border-style: solid;
+    border-width: 6px;
+    top: 24px;
+}
+/*  */
+
+/* forgot password */
+  .confirm-email-btn{
+    padding: 5px 0px 45px 0px;
+  }
+/*  */
+
+/* terms */
+.terms-of-service-wrapper {
+    padding: 8% 0% 3%;
+}
+.terms-of-service-wrapper {
+    text-align: center;
+}
+p.last-updated {
+    padding: 5px;
+    font-size: 14px;
+}
+p.terms-heading {
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 2rem;
+    color: #194f56;
+    margin-bottom: 0;
+    padding: 5px;
+}
+.terms-of-service-wrapper {
+    border-bottom: 1px solid #d3d3d3;
+}
+li.side-section-list {
+    padding: 10px;
+    list-style: none;
+    color: #0b3135;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    cursor: pointer;
+}
+li.side-section-list:hover {
+    color: #ef515a;
+    cursor: pointer;
+    text-decoration: none;
+}
+.side-terms:hover{
+    text-decoration: none;
+}
+.terms-container {
+    display: flex;
+}
+.side-section {
+    width: 20%;
+    overflow-y: scroll;
+    height: 500px;
+}
+.terms-section {
+    width: 80%;
+    padding: 10px 20px;
+}
+
+button.req-demo {
+    background-color: #ef515a;
+    border-color: #ef515a;
+    color: #fff;
+    border: none;
+    padding: 5px 11px;
+    border-radius: 5px;
+}
+p.get-all-heading {
+    font-size: 30px;
+}
+.getit-all-section {
+    text-align: center;
+    padding: 30px;
+}
+p.team-owner-txt {
+    padding: 12px 0px 3px;
+    margin: 0;
+}
+
+/* instructors */
+.instructor-wrapper {
+    padding: 8% 40px 3%;
+    background: #82c7d1;
+    height: auto;
+}
+.instructor-music-wrapper {
+    padding: 10% 40px;
+    background: #daebed;
+    height: auto;
+}
+.instructor-music-wrapper-team {
+    padding: 10% 40px;
+    background: #daebed;
+    height: auto;
+}
+.host-schedule-wrapper.hosted {
+    height: auto;
+}
+.become-instructeo-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.instructor-profile-image {
+    width: 50%;
+}
+.baxkground-txt {
+    width: 50%;
+    padding: 30px 50px;
+}
+img.instructor-profile-img {
+    width: 100%;
+}
+button.become-inst-btn {
+    background-color: #ef515a;
+    border-radius: 4px;
+    color: white !important;
+    height: 36px;
+    border: none;
+    text-align: center;
+    font-weight: 600;
+    padding: 0px 10px;
+    width: 50%;
+}
+button.pricing-btn {
+    background-color: transparent;
+    border-radius: 4px;
+    color: white !important;
+    height: 36px;
+    border: 1px solid white;
+    text-align: center;
+    font-weight: 600;
+    padding: 0px 10px;
+    margin-left: 10px;
+    width: 30%;
+}
+p.growth-platform-text {
+    color: white;
+    font-size: 32px;
+} 
+p.growth-platform-texts {
+    color: #2a5d63;
+    font-size: 32px;
+}
+p.growth-platform-subtxts {
+    color: #212529;
+    font-size: 18px;
+}
+p.growth-platform-subtxt {
+    color: white;
+    font-size: 18px;
+}
+img.too-many-tool-img {
+    width: 60%;
+}
+.too-many-tool-wrapper {
+    text-align: center;
+    padding-top: 0%;
+}
+.too-many-tool-wrapper-teams {
+    text-align: center;
+    padding-top: 0;
+}
+p.too-many-text {
+    font-size: 30px;
+    color: #0b3135;
+}
+p.many-tool-text-1 {
+    font-size: 20px;
+    color: #0b3135;
+    margin-bottom: 5px;
+}
+p.many-tool-text-2 {
+    color: #0b3135;
+    font-size: 13px;
+}
+img.inst-tyrn {
+    width: 40%;
+    margin-top: 25px;
+}
+.host-schedule-wrapper {
+    text-align: center;
+    background: #daebed;
+    margin-top: 40px;
+    padding: 20px 0px 40px;
+    height: auto;
+    margin: 0 !important;
+}
+p.host-text {
+    font-size: 35px;
+    color: #0b3135;
+}
+li.personal-list-musics {
+    padding: 5px 0px;
+}
+p.host-txt-2 {
+    color: #0b3135;
+}
+img.studio-pre-img {
+    width: 100%;
+}
+.personal-img-section {
+    width: 50%;
+}
+.personal-text-section {
+    width: 50%;
+    align-self: center;
+    padding: 0px 45px;
+}
+.personal-live-fitness {
+    display: flex;
+    flex-wrap: wrap;
+}
+.personal-live-fitness-wrapper {
+    background: #f7f7f7;
+    padding: 40px 0px;
+}
+p.personal-text-heading {
+    font-size: 39px;
+    margin: 0px 40px;
+    color: #0b3135;
+}
+li.personal-list {
+    margin: 10px 40px;
+    color: #0b3135;
+}
+.personal-music-wrapper {
+    background: #daebed;
+    padding: 40px 0px;
+}
+.everything-risk-heading-sec {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+.everything-included-risk-free-wrapper {
+    background: #82c7d1;
+    padding: 30px;
+}
+.everything-inc{
+    margin-bottom: 0;
+}
+.row.accordion-row {
+    margin: 0 !important;
+}
+h1.accordion-sec-heading {
+    font-size: 2rem;
+    font-weight: 400;
+    background: rgba(0,60,67,.2);
+    margin: 0;
+    padding: 10px;
+    color: #003c43;
+}
+p.earning {
+    margin-bottom: 3px;
+}
+p.no-of-tkt {
+    margin-bottom: 0;
+}
+.earning-sevtion {
+    background: white;
+    padding: 10px;
+}
+.ticket-sec {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+p.tkt-prc {
+    margin-bottom: 0;
+}
+a.learn-more {
+    color: black;
+}
+.transt-sec {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 4px;
+}
+a.fees {
+    color: red;
+}
+.accordion-item {
+    background-color: #fff;
+    border: 1px dotted rgba(0,0,0,.125) !important;
+}
+i.fa.fa-check.check-icon {
+    color: #003c43;
+    font-size: 15px;
+    padding-right: 10px;
+}
+.sos-icon {
+    padding: 0px 8px;
+    font-size: 25px !important;
+}
+.sos-icon:hover {
+   color: red;
+}
+.footer-link {
+    color: #003c43;
+    text-decoration: none;
+}
+
+.passes-main-wrapper {
+    padding: 8% 0px 40px;
+}
+.text-mox{
+margin-bottom: 0;
+}
+.mox-pass-text{
+    margin-bottom: 0;
+}
+.fittness-explaination-sec {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+.fit-calendar-sec {
+    width: 20%;
+    text-align: center;
+}
+p.everybody-heading {
+    text-align: center;
+    padding: 11px;
+    font-size: 30px;
+}
+.preview-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+p.preview-txt {
+    margin-bottom: 0;
+    padding: 5px 0px 0px;
+    font-size: 14px;
+}
+p.pre-trainee {
+    font-size: 12px;
+}
+img.how-img {
+    width: 100px;
+}
+p.cald-txt {
+    padding: 20px 0px;
+    font-size: 20px;
+}
+p.calde-txt {
+    padding: 18px;
+}
+p.using-pass {
+    text-align: center;
+    padding: 11px;
+    font-size: 30px;
+}
+.using-passes-sec {
+    text-align: center;
+}
+li.personal-list-music {
+    color: white;
+    padding: 4px 0px;
+}
+p.last-para-txt {
+    text-align: center;
+    padding: 30px 0px 0px;
+    font-size: 22px;
+    color: white;
+}
+button.become-inst-btn {
+    margin: 10px 0px;
+}
+p.growth-platform-subtxt {
+    color: white;
+    font-size: 18px;
+    padding: 0px 10px 0px 0px;
+}
+.get-free-ticket {
+    display: flex;
+    align-items: center;
+    padding: 0px 35px;
+}
+.cancel-anytime {
+    display: flex;
+    align-items: center;
+    /* padding: 0px 35px; */
+}
+.passes-card {
+    background-color: #7772e1;
+    border-radius: 20px;
+    width: 28%;
+    position: relative;
+    left: -20px;
+    top: 30px;
+}
+.passes-main-wrapper {
+    padding: 8% 0px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.moxiee-pass {
+    text-align: center;
+}
+p.no-risk {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+    color: white;
+}
+p.dollar {
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+p.cancel-anytime {
+    color: white;
+    margin: 10px;
+}
+p.free-tickets {
+    color: white;
+    margin: 10px;
+}
+.start-free-trial-btn {
+    text-align: center;
+    margin-top: 40px;
+}
+button.fre-trial {
+    color: #7772e1;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    width: 70%;
+}
+p.mox-pas-heading {
+    font-size: 30px;
+    color: #285c61;
+    margin-bottom: 0;
+}
+p.mox-pass-text {
+    color: rgba(11,49,53,.8);
+    font-size: 20px;
+    padding: 5px;
+}
+.text-mox {
+    margin-bottom: 0;
+    color: rgba(11,49,53,.7);
+    padding: 10px 0px 0px;
+}
+.text-moxx{
+    color: rgba(11,49,53,.7);
+}
+p.dree-trial-text {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+button.req-demo {
+    margin: 30px;
+}
+img.fre-trial-img {
+    padding-left: 35px;
+}
+.too-many-img-sec {
+    background-color: #f7f7f7;
+    padding: 50px;
+}
+.first-color {
+    background-color: #daebed !important;
+}
+.second-color {
+    background-color: #f7f7f7 !important;
+}
+img.awinta-img {
+    width: 100px;
+    border-radius: 50%;
+}
+.passes-team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 10%;
+}
+p.what-gym {
+    font-size: 36px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.gym-goers-wrapper {
+    text-align: center;
+    padding: 20px;
+    background-color: #fbfaff;;
+}
+p.awinta {
+    margin: 0;
+    padding: 22px;
+    font-size: 18px;
+}
+.love-variety-sec {
+    width: 36%;
+}
+p.variety-text {
+    font-size: 22px;
+    padding-bottom: 20px;
+    color: #0b3135;
+}
+.hosted{
+    margin: 0;
+}
+/*  */
+
+  /* ****************************************************************************************************** */
+  /* media queries */
+
+  @media (max-width:600px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #0b3135;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #fff;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    img.inst-tyrn {
+        width: 80%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: 195px;
+      overflow-y: auto;
+    }
+    a.browse {
+        display: none;
+    }
+    a.browse:hover {
+        color: #e0565b !important;
+        text-decoration: none;
+    }
+    a.free-trial-btn {
+    display: none !important;
+    }
+    .mobile-view-nav-content{
+        display: block !important;
+    }
+    .passes-card {
+        background-color: #7772e1;
+        border-radius: 20px;
+        width: 75% !important;
+        margin: 20px;
+        position: unset;
+    }
+    img.moxie-pas-video {
+        width: 100%;
+    }
+
+    /* main */
+    h1.fitness-heading {
+        font-size: 35px;
+        padding-top: 30px;
+    }
+    p.heading-para {
+        font-size: 16px;
+        padding: 10px;
+    }
+    img.img-fluid.main-image {
+        bottom: 70px;
+    }
+
+
+    /* video */
+    h2.video-heading-1 {
+        font-size: 20px;
+    }
+    h2.video-heading-2 {
+        font-size: 20px;
+    }
+    a.start-coaching-btn {
+        display: none;
+    }
+
+    /* footer */
+    .footer-wrapper-section {
+        flex-wrap: wrap;
+    }
+    .footer-sec {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .live-class.row {
+        padding-bottom: 30px;
+        overflow-x: auto;
+        flex-wrap: nowrap !important;
+       
+    }
+    .discover-top.row {
+        padding-bottom: 30px;
+        overflow-x: auto;
+        flex-wrap: nowrap !important;
+    }
+    .perfect-live.row {
+        padding-bottom: 30px;
+        overflow-x: auto;
+        flex-wrap: nowrap !important;
+    }
+    img.live-image {
+        width: 265px;
+        border-radius: 5px;
+    }
+    h2.advantage-heading {
+        font-size: 28px;
+    }
+    .col-md-2.as-seen {
+        width: 50%;
+        margin: 20px 0px;
+    }
+    img.ass-seen-img {
+        width: 125px;
+    }
+    .login-section {
+        background-color: #fff;
+        border-radius: 14px;
+        box-shadow: none;
+        max-width: 90%;
+    }
+    p.train-live-txt {
+        padding: 10px 25px;
+    }
+    input.form-inpt {
+        padding: 10px;
+        width: 75%;
+    }
+    button.login-button {
+       width: 75%;
+    }  
+    .border-section {
+        width: 80%;
+    }
+    .check-section {
+        display: flex;
+        width: 80%;
+    }  
+    span.rebbion-sec {
+     display: none;
+    }    
+    .abt-image-section {
+        width: 100%;
+    }
+    p.last-para-txt {
+        text-align: center;
+        padding: 30px;
+        font-size: 22px;
+        color: white;
+    }
+    .abt-section-text {
+        padding: 20px;
+        width: 100%;
+    }
+    .abt-main-section {
+        flex-wrap: wrap;
+    }
+    .abt-section-text.order-two {
+        order: 2;
+    }
+    .give-gift {
+        width: 100%;
+    }
+    .gift-form {
+        width: 100%;
+    }
+    .gift-section {
+        flex-wrap: wrap;
+    }
+    .gift-section-wrapper {
+        padding: 20% 0px;
+    }
+    h3.give-gift {
+        text-align: center;
+    }
+    .give-gift-txt {
+        text-align: center;
+    }
+    img.gft-image {
+        width: 100%;
+        height: 300px;
+    }
+    input.gift-input {
+        width: 100%;
+    }
+    textarea {
+        width: 100%;
+        padding: 10px;
+    }
+    button.purchase-button {
+     width: 100%;
+    }
+    .nav > .nav-links > a {
+        /* display: none; */
+        width: 100%;
+    }
+    .fit-calendar-sec {
+        width: 80%;
+        text-align: center;
+    }
+    .side-section {
+        display: none;
+    }
+    .terms-section {
+        width: 100%;
+        text-align: justify;
+        padding: 10px 20px;
+    }
+    .baxkground-txt {
+        width: 100%;
+        padding: 10px;
+    }
+    .instructor-profile-image {
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .instructor-wrapper {
+        padding: 13% 40px 3% !important;
+        background: #82c7d1;
+        height: auto;
+        }
+    
+    button.become-inst-btn {
+        background-color: #ef515a;
+        border-radius: 4px;
+        color: white !important;
+        height: 36px;
+        border: none;
+        text-align: center;
+        font-weight: 600;
+        padding: 0px 10px;
+        font-size: 11px;
+        width: 63%;
+    }
+    button.pricing-btn {
+        background-color: transparent;
+        border-radius: 4px;
+        color: white !important;
+        height: 36px;
+        border: 1px solid white;
+        text-align: center;
+        font-weight: 600;
+        padding: 0px 10px;
+        font-size: 11px;
+        margin-left: 10px;
+        width: 30%;
+    }
+    p.many-tool-text-1 {
+        padding: 20px;
+    }
+    p.too-many-text {
+        font-size: 23px;
+        color: #0b3135;
+        padding: 10px;
+    }
+    .personal-img-section {
+        width: 100%;
+        padding: 25px;
+    }
+    .personal-text-section {
+        width: 100%;
+        padding: 10px;
+    }
+    li.personal-list {
+        margin: 10px 15px;
+        color: #0b3135;
+    }
+    p.personal-text-heading {
+        font-size: 29px;
+        margin: 0px 10px;
+        color: #0b3135;
+    }
+    .host-schedule-wrapper {
+        height: 400px !important;
+    }
+    .hosted{
+        height: 400 !important;
+    }
+    h1.accordion-sec-heading {
+        font-size: 22px;
+        font-weight: 400;
+    }
+    /* .nav > .abt-us-nav > a {
+        display: none !important;
+        width: 100%;
+    } */
+    a.start-coaching-btn {
+        border: none;
+        text-align: start;
+    }
+    a.login-btn {
+        background: none;
+        color: black !important;
+        text-align: start;
+        margin: 0;
+    }
+    .passes-main-wrapper {
+        text-align: center;
+        padding: 20% 0px 40px;
+    }
+    .terms-of-service-wrapper {
+        padding: 20% 0% 3%;
+    }
+    .gift-form-grp {
+        padding: 11px 15px;
+    }
+    .nav-links.small-nav {
+        height: 112px !important;
+        overflow-y: auto;
+    }
+    .nav-links.abt-us-nav.abt-small {
+        height: 157px !important;
+    }
+    .instructor-music-wrapper {
+        padding: 12% 40px !important;
+        background: #daebed;
+        height: 600px !important;
+    }
+    button.req-demo {
+        margin: 30px;
+    }
+    .too-many-tool-wrapper {
+        text-align: center;
+        padding-top: 0;
+    }
+    .love-variety-sec {
+        width: 100%;
+    }
+    .host-schedule-wrapper.hosted {
+        height: 500px !important;
+    }
+    .instructor-music-wrapper-team {
+        padding: 14% 40px !important;
+        background: #daebed;
+        height: 700px !important;
+    }
+    
+  }
+
+  @media (min-width: 1820px) {
+    .host-schedule-wrapper {
+        text-align: center;
+        background: #daebed;
+        margin-top: 40px;
+        padding: 20px 0px;
+        height: 800px;
+    }
+    .too-many-tool-wrapper {
+        text-align: center;
+        padding-top: 15%;
+    }
+    .passes-card {
+        background-color: #7772e1;
+        border-radius: 20px;
+        width: 28%;
+        position: relative;
+        left: -10px;
+        top: 30px;
+    }
+    .instructor-music-wrapper {
+        padding: 10% 40px;
+        background: #daebed;
+        height: 710px;
+    }
+    .instructor-music-wrapper-team {
+        padding: 14% 40px !important;
+        background: #daebed;
+        height: 1000px;
+    }
+  }
+  @media (max-width: 2560px) {
+    .instructor-wrapper {
+        /*padding: 8% 40px;*/
+        background: #82c7d1;
+        height: auto;
+    }
+    .instructor-music-wrapper {
+        padding: 8% 40px 3%;
+        background: #daebed;
+        height: auto;
+    }
+    .host-schedule-wrapper {
+        text-align: center;
+        background: #daebed;
+        margin-top: 40px;
+        padding: 20px 0px 3%;
+        height: 500px;
+    }
+    img.instructor-profile-img {
+        width: 80%;
+    }
+    .instructor-music-wrapper-team {
+        padding: 8% 40px 3%;
+        background: #daebed;
+        height: auto;
+    }
+    .passes-card {
+        background-color: #7772e1;
+        border-radius: 20px;
+        width: 28%;
+        position: relative;
+        left: -10px;
+        top: 30px;
+    }
+    .hosted{
+        height: auto !important;
+        margin: 0 !important;
+    }
+  }
+  
